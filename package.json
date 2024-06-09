@@ -1,0 +1,52 @@
+{
+  "name": "react-providers-tree-builder",
+  "version": "0.0.1",
+  "private": false,
+  "type": "module",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "keywords": [
+    "reactjs",
+    "provider",
+    "readable",
+    "provider hell",
+    "react",
+    "context",
+    "code readability",
+    "nested providers"
+  ],
+  "author": {
+    "name": "Raj Rathore"
+  },
+  "scripts": {
+    "build": "tsup"
+  },
+  "tsup": {
+    "entry": [
+      "index.tsx"
+    ],
+    "dts": true,
+    "format": "esm"
+  },
+  "files": [
+    "dist"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "license": "MIT",
+  "description": "A React library that focuses on making provider trees more readable",
+  "bugs": {
+    "url": "https://github.com/raj7096/react-providers-tree-builder/issues"
+  },
+  "homepage": "https://github.com/raj7096/react-providers-tree-builder",
+  "peerDependencies": {
+    "react": "^18"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.0",
+    "@types/react": "^18.3.3",
+    "tsup": "^8.1.0",
+    "typescript": "^5.4.5"
+  }
+}

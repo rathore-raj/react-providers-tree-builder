@@ -1,0 +1,9 @@
+{
+  "include": ["index.tsx"],
+  "compilerOptions": {
+    "declaration": true,
+    "outDir": "./dist",
+    "jsx": "preserve",
+    "esModuleInterop": true
+  }
+}
